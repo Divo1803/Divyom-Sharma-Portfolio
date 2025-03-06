@@ -20,7 +20,7 @@ const NeonSphere = () => {
       <meshStandardMaterial 
         color="#9b87f5" 
         emissive="#9b87f5"
-        emissiveIntensity={0.5}
+        emissiveIntensity={0.7}
         wireframe={true}
       />
     </mesh>
@@ -35,7 +35,7 @@ const ThreeBackground: React.FC = () => {
         style={{ width: '100%', height: '100%' }}
       >
         <ambientLight intensity={0.1} />
-        <pointLight position={[10, 10, 10]} intensity={0.5} />
+        <pointLight position={[10, 10, 10]} intensity={0.8} />
         
         <Float speed={1.5} rotationIntensity={0.1} floatIntensity={0.3}>
           <NeonSphere />
